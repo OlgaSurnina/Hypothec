@@ -6,7 +6,7 @@ public class Hypothec {
         int costHouse = 7200000;
         System.out.println("Стоимость жилья " + costHouse);
 
-        double firstPayProcent = 0.2;
+        final double firstPayProcent = 0.2;
         System.out.println("Процент первоначального взноса " + firstPayProcent);
 
         double firstPay = costHouse * firstPayProcent;
